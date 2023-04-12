@@ -12,4 +12,5 @@ public class Carta : ScriptableObject
     public int power;   
     public int health;
     public Sprite spriteImage;
+    
 }

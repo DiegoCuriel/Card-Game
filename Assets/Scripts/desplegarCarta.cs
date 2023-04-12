@@ -7,6 +7,7 @@ public class desplegarCarta : MonoBehaviour
 {
     public List<ScriptableObject> cardList;
     public Image imagen;
+    public bool aletorizar;
 
     private void Start()
     {

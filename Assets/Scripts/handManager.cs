@@ -5,20 +5,41 @@ using UnityEngine;
 public class handManager : MonoBehaviour
 {
     
-    public GameObject cardPrefab;
-    public Transform handPanel;
-    public List<ScriptableObject> cardList;
+    public List<GameObject> cardList;
+    private Vector3 posiciones;
+    private bool actualizar = false;
 
     private void Start()
     {
-        for (int i = 0; i < 5; i++)
-        {
-            GameObject card = Instantiate(cardPrefab, handPanel);
-            card.GetComponent<desplegarCarta>().cardList = cardList;
-        }
+        // crea un vector con las posiciones de las cartas
         
-
+        for(int i = 0; i < 5; i++)
+        {
+            
+            GameObject carta = Instantiate(cardList[i], transform);
+            carta.transform.position = new Vector3(100+i*200, 254, 0);
+        }
 
     }
-
+    public void shuffle()
+    {
+        actualizar = true;
+    }
+    private void Update()
+    {
+        //borra las cartas anteriores y crea las nuevas
+        if (actualizar)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                GameObject carta = Instantiate(cardList[i], transform);
+                carta.transform.position = new Vector3(100 + i * 200, 254, 0);
+            }
+            actualizar = false;
+        }
+    }
 }
