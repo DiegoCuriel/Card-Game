@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 1
   cardName: Acolyte of Pain
   cardDescription: Whenever this minion takes damage, draw a card.
-  cost: 0
-  power: 0
-  health: 0
-  spriteImage: {fileID: 0}
+  cost: 3
+  power: 1
+  health: 3
+  spriteImage: {fileID: 21300000, guid: ead6e74df63bc4395b5c58152403644a, type: 3}

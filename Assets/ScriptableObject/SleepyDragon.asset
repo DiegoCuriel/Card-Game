@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694a99f8f95304aef9fe9567a4a113b4, type: 3}
   m_Name: SleepyDragon
   m_EditorClassIdentifier: 
-  id: 8
+  id: 9
   cardName: SleepyDragon
   cardDescription: Taunt
   cost: 9
   power: 4
   health: 12
-  spriteImage: {fileID: 0}
+  spriteImage: {fileID: 21300000, guid: a0d7d9a65c59d44e8b61f89d0d25ddf0, type: 3}

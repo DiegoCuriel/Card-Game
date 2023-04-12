@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694a99f8f95304aef9fe9567a4a113b4, type: 3}
   m_Name: Loot
   m_EditorClassIdentifier: 
-  id: 4
+  id: 5
   cardName: Loor hoarder
   cardDescription: 'Deathrattle: draw a card'
   cost: 2
   power: 2
   health: 1
-  spriteImage: {fileID: 0}
+  spriteImage: {fileID: 21300000, guid: 5d252cdc4429d4c929fcf44a85ef1aa3, type: 3}

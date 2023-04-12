@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694a99f8f95304aef9fe9567a4a113b4, type: 3}
   m_Name: Sylvanas
   m_EditorClassIdentifier: 
-  id: 0
-  cardName: 
-  cardDescription: 
-  cost: 0
-  power: 0
-  health: 0
-  spriteImage: {fileID: 0}
+  id: 10
+  cardName: Sylvanas windrunner
+  cardDescription: 'Deathrattle: Take control '
+  cost: 6
+  power: 5
+  health: 5
+  spriteImage: {fileID: 21300000, guid: 8a913ba03be994f9ab259a2ea80e7bcf, type: 3}

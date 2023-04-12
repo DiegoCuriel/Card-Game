@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 694a99f8f95304aef9fe9567a4a113b4, type: 3}
   m_Name: northShireCleric
   m_EditorClassIdentifier: 
-  id: 0
-  cardName: 
-  cardDescription: 
-  cost: 0
-  power: 0
-  health: 0
-  spriteImage: {fileID: 0}
+  id: 7
+  cardName: North shire cleric
+  cardDescription: Whenerver a minion is healed, draw a card.
+  cost: 1
+  power: 1
+  health: 3
+  spriteImage: {fileID: 21300000, guid: 9777f28df94ee4a999705a14f7329954, type: 3}
