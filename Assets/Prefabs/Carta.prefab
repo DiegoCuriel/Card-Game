@@ -45,7 +45,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f72e83df01145de8b4ebcb41b5a274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carta: {fileID: 0}
+  cardList:
+  - {fileID: 11400000, guid: ddb1a6a0e41e3414ab035cb4acca4d36, type: 2}
+  - {fileID: 11400000, guid: d70fc60af959e48a2bb798b07dfdc9c8, type: 2}
+  - {fileID: 11400000, guid: 87690ca13ef56476f9a73bef467eb69f, type: 2}
+  - {fileID: 11400000, guid: cfc4794a85abb4b659ab6e1f147698be, type: 2}
+  - {fileID: 11400000, guid: 59b1c2adfe934444fae0f96f1955eec7, type: 2}
+  - {fileID: 11400000, guid: 7eb824cdf224b4664bd5b4e6d9ce6111, type: 2}
+  - {fileID: 11400000, guid: 62bf62b6c767d4ac2a01c2b202f11dbf, type: 2}
+  - {fileID: 11400000, guid: a1379c845efe544fda107e0d8d94e50f, type: 2}
+  - {fileID: 11400000, guid: df973b1f3507244f99e45d3e8ecd2378, type: 2}
+  - {fileID: 11400000, guid: fff344bf16dd644adb962b6fd47438d0, type: 2}
   imagen: {fileID: 3712461002493418309}
 --- !u!1 &5166822673886027039
 GameObject:
