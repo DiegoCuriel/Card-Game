@@ -8,6 +8,7 @@ public class handManager : MonoBehaviour
     public List<GameObject> cardList;
     private Vector3 posiciones;
     private bool actualizar = false;
+    private string actuales;
 
     private void Start()
     {
@@ -18,7 +19,10 @@ public class handManager : MonoBehaviour
             
             GameObject carta = Instantiate(cardList[i], transform);
             carta.transform.position = new Vector3(100+i*200, 254, 0);
+            //actuales += cardList[i].name + ", ";
         }
+        //actuales = actuales.Substring(0, actuales.Length - 2);
+        //FindObjectOfType<GuiManager>().AddActuales(actuales);
 
     }
     public void shuffle()
@@ -38,7 +42,11 @@ public class handManager : MonoBehaviour
             {
                 GameObject carta = Instantiate(cardList[i], transform);
                 carta.transform.position = new Vector3(100 + i * 200, 254, 0);
+                //actuales += cardList[i].name + ", ";
             }
+            //actuales = actuales.Substring(0, actuales.Length - 2);
+            //FindObjectOfType<GuiManager>().AddActuales(actuales);
+
             actualizar = false;
         }
     }
